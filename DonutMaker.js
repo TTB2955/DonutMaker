@@ -40,6 +40,10 @@ class DonutMaker {
         return this.autoClickerCost;
     }
 
+    makeAutoClickerWork() {
+        this.donutClick = this.autoClickerCount + this.donutClick * this.donutCount;
+    }
+
     getDonutValue() {
         return this.donutCount;
     }
