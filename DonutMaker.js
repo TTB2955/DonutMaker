@@ -47,4 +47,10 @@ class DonutMaker {
     getDonutValue() {
         return this.donutCount;
     }
+
+    restartGame() {
+        this.donutCount = 0;
+        this.autoClickerCount = 0;
+        this.autoClickerCost = 100;
+    }
 }
