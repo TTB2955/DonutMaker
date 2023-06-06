@@ -39,4 +39,8 @@ class DonutMaker {
     getAutoClickerCost() {
         return this.autoClickerCost;
     }
+
+    getDonutValue() {
+        return this.donutCount;
+    }
 }
