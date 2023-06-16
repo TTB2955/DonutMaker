@@ -58,7 +58,7 @@ donutValue.textContent = donutMaker.getDonutValue().toFixed(1)
 const autoClicker = setInterval(autoClick, 1000)
 
 function autoClick() {
-updateDonutCount(donutCount, donutMaker)
+updateDonutClicked(donutCount, donutMaker)
 donutMaker.makeAutoClickerWork()
 enableAutoClickerBtn()
 enableMultiplierBtn()
