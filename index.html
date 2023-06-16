@@ -5,9 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Holy Moly Donut Shop</title>
+    <title>Holy Moly Donuts</title>
 </head>
 <body>
+    <header>
+        <h1>Holy Moly Donuts</h1>
+        <nav>
+        <ul>
+            <li><a href="Fred the Baker Baking Company">Company Info</a></li>
+            <li><a href="https://orteil.dashnet.org/cookieclicker/" target="_blank">Inspiration</a></li>
+            <li><a href="https://github.com/TTB2955">Developer Info</a></li>
+        </ul>
+        </nav>
+    </header>
+    
+    <div class="hidden-texts-container">
+        <section class="about-us hidden-texts" hidden>
+        <h3>About Us</h3>
+        <p>
+            Holy Moly Donuts is a parody tribute to one of my favorite movies of all-time,
+            Friday After Next and it's 'hole-in-the-wall' donut shop named Holy Moly.
+        </p>
+        </section>
+
+        <section class="dev hidden-texts" hidden>
+        <h3>The Developer</h3>
+        <p>
+            My name is Tequan Browning and I'm a Software Developer who enjoys anime.<em>Especially, One Piece.</em>
+        </p>
+        <div class="a-container">
+            <p>
+            <a href="https://TTB2955.github.io/" target="_blank">Portfolio</a>
+            </p>
+            <p>
+            <a href="https://github.com/TTB2955" target="_blank">Github</a>
+            </p>
+        </div>
+        </section>
+
+        <section class="hidden-texts" hidden>
+        <h3>Inspiration</h3>
+        <p>This website is inspired by the original Cookie Clicker Game,
+            as well as my amazing java instructor, Sam Blaha.
+        </p>
+        <button>
+            <a href="https://orteil.dashnet.org/cookieclicker/" target="_blank"
+            >Inspiration</a
+            >
+        </button>
+        </section>
+    </div>
+
+    <div class="content">
+        <nav class="sidebar">
+        <ul class="side-nav">
+            <button class="make-donut side-nav__item">
+            Click to Make Donuts!
+            </button>
+            <button class="ac-btn side-nav__item" disabled>
+            Buy AutoClicker!
+            </button>
+        </ul>
+        </nav>
+
+        <main class="main-view">
+        <div class="gallery">
+            <figure class="gallery__item">
+            <img src="donut1.jpg"
+                class="gallery__photo"
+            />
+            </figure>
+            <figure class="gallery__item">
+            <img src="donut2.jpg"
+                class="gallery__photo"
+            />
+            </figure>
+            <figure class="gallery__item">
+            <img src="donut3.jpg"
+                
+                class="gallery__photo"
+            />
+            </figure>
+        </div>
+
+        <div class="heading">
+            <h1><span>Holy Moly</span> Donut Shop</h1>
+        </div>
+
+        <div class="detail">
+            <div class="description">
+            <div class="desc-title">Donut Count :</div>
+            <div class="donut-count">0</div>
+            <div class="cost">
+                <span>Per Click : </span>
+                <div class="donut-value">1</div>
+            </div>
+            <hr />
+            <div class="desc-title">Number of Auto Clickers :</div>
+            <div class="ac-count">0</div>
+            <div class="cost">
+                <span>Cost :</span>
+                <div class="ac-cost">100</div>
+            </div>
+        </div>
+
+        <div class="button-container">
+            <button class="reset">Reset</button>
+        </div>
+        </main>
+    </div>
+    </div>
+
     
     <script src="DonutMaker.js"></script>
     <script src="script.js"></script>
