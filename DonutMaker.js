@@ -6,8 +6,6 @@ class DonutMaker {
     this.autoClickerCount = 0;
     this.autoClickerCost = 100;
 
-    //this.multiplierCount = 0;
-    //this.multiplierCost = 10;
     }
 
     donutClicked() {
