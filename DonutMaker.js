@@ -21,7 +21,7 @@ class DonutMaker {
         if (this.donutClick >= this.autoClickerCost) {
             this.donutClick = this.donutClick - this.autoClickerCost;
             this.autoClickerCount++;
-            this.increaseAutoClickerCost() //missing this.
+            this.increaseAutoClickerCost()
         }
     }
 
