@@ -58,13 +58,12 @@ function autoClick() {
 updateDonutClicked(donutCount, donutMaker)
 donutMaker.makeAutoClickerWork()
 enableAutoClickerBtn()
-enableMultiplierBtn()
 }
 
 const makeDonutBtn = (donutBtn, donutCount, donutMaker) => {
 donutBtn.addEventListener("click", () => {
     donutMaker.donutClicked()
-    updateDonutCount(donutCount, donutMaker)
+    updateDonutClicked(donutCount, donutMaker);
 })
 }
 
